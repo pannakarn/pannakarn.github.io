@@ -75,18 +75,86 @@ h2 {
 }
 
 h3 {
-	font-family: 'Gochi Hand', cursive;
+	/*background: url(The-Road-to-Enlightenment.png) top no-repeat;
+	height: 35px;
+	width: 315px;*/
+	/*font-family: 'Gochi Hand', cursive;
 	color: #5c8d89;
-	font-size: 15px;
+	font-size: 15px;*/
+	/*display: none;*/
 
-animation-name: scale-in-ver-center;
+	white-space: nowrap;
+    overflow: hidden;
+    text-indent: 100%;
+    animation-name: scale-in-ver-center;
 	animation-duration: 2s;
+}
+
+.preamble h3 {
+	background: url(The-Road-to-Enlightenment.png) left top no-repeat;
+	height: 30px;
+	width: 500px;
+	
+}
+
+.explanation h3 {
+	background: url(So-What-is-This-About.png) left top no-repeat;
+	height: 30px;
+	width: 500px;
+}
+
+.participation h3 {
+	background: url(Participation.png) left top no-repeat;
+	height: 30px;
+	width: 500px;
+}
+
+.benefits h3 {
+	background: url(Benefits.png) left top no-repeat;
+	height: 30px;
+	width: 500px;
+}
+
+
+.requirements h3 {
+	background: url(Requirements.png) left top no-repeat;
+	height: 30px;
+	width: 500px;
+}
+
+.select{
+	background: url(Select-a-Design.png) left top no-repeat;
+	height: 30px;
+	width: 180px;
+}
+
+
+.archives{
+	background: url(Archives.png) left top no-repeat;
+	height: 30px;
+	width: 180px;
+}
+
+.resources{
+	background: url(Resources.png) left top no-repeat;
+	height: 30px;
+	width: 180px;
+}
+
+.sidebar h3{
+	text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    /*animation-name: scale-in-ver-center;
+	animation-duration: 2s;*/
 }
 
 p {
 	font-family: 'Major Mono Display', monospace;
 	animation-name: scale-in-ver-center;
 	animation-duration: 2s;
+	padding-bottom: 5px;
+	padding-top: -5px;
 }
 
 .main.supporting, .preamble {
@@ -113,7 +181,7 @@ p {
     width: 190px;*/
     padding-right: 10px;
     padding-left: 15px;
-    padding-bottom: 860px;
+    padding-bottom: 950px;
     padding-top: 1px;
     font-family: 'Major Mono Display', monospace;
     background-color: #dcefe8;
@@ -135,10 +203,18 @@ footer {
 	margin-bottom: 10px;
 	animation-name: scale-in-ver-center;
 	animation-duration: 2s;
+	font-family: 'Major Mono Display', monospace;
 }
 
 a {
 	color: black;
+	text-decoration: none;
+
+}
+
+.design-name {
+	color: #5c8d89;
+	font-weight: bold;
 }
 
 /* ----------------------------------------------
