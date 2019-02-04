@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Specificity</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi|Sarabun');
+	</style>
+</head>
+<body>
+
+	<header>
+		<h1>CSS Specificity</h1>
+	</header>
+
+	<p class="intro1">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS Specificity คือ ลำดับความสำคัญของ style ใน CSS เป็นค่าที่จะบอก browser ว่าให้เลือกใช้ Style ตัวไหนมาแสดงผลบนหน้าเว็บ 
+			โดยการที่ browser จะสามารถเลือก style มาแสดงผลได้อย่างถูกต้อง จำเป็นต้องมีการคำนวณค่าความสำคัญก่อน
+	</p>
+
+	<p class="intro2">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;โดยปกติ CSS จะเรียกใช้งาน style จากบนลงล่าง หากเขียน style ซ้ำกันจะเรียกใช้ style ล่างสุด แต่หากมีลำดับความสำคัญของ Selector แตกต่างกัน ลำดับการเขียนโค้ดได้ด้านบนด้านล่างจะไม่มีผล
+	</p>
+
+	<p class="main">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ลำดับความสำคัญของ style ใน CSS เรียงลำดับ specificity จากมากไปน้อย ดังนี้
+	<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Inline style
+	<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. ID selectors 
+	<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Class selectors
+	<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Element (tag html)
+	<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Style ใดที่มี specificity สูงจะถูกเลือกไปแสดงใน browser
+	</p>
+
+	<p class="eiei">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;จากตัวอย่าง Lab 02
+Home.html มีการเชื่อมโยง external css style-2.css และ external css style-1.css ตามลำดับ
+สีพื้นหลัง active list ของ home.html เลือกใช้สีจาก css style-1.css มาแสดงผล เพราะ css style-1.css เขียนอยู่ลำดับล่างสุด และค่า specificity ของ selector ul li.active ของทั้ง style-1.css และ style-2.css มีค่าเท่ากัน
+	<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;แต่ home.html เลือกสีของ active link จาก style-2.css มาแสดงผลแทนที่จะเป็น style-1.css ที่เขียนอยู่ด้านล่าง เพราะ ใน style-1.css มี specificity ของ selector มากกว่า style-2.css
+	<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ใน style-1.css มี selector คือ ul li a	
+	<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ส่วนใน style-2.css มี selector คือ ul li.acitve a
+
+	<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สาเหตุที่ style-2.css มี ค่า specificity ของ selector มากกว่าเพราะมี class selector .active รวมอยู่ browser จึงแสดงผลจาก style-2.css ที่เขียนอยู่ด้านบนแทน style-1.css ที่เขียนอยู่ด้านล่าง
+	</p>
+
+</body>
+</html>
