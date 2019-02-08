@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>jquery3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello JQuery 3</title>
+    <link rel="stylesheet" href="bulma-0.7.2/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <style>
+		@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+	</style>
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Sarabun');
+	</style>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	
+</head>
+<body>
+	<h1>ตรวจสอบสถานะการสั่งซื้อ</h1>
+	<section class="section">
+    <div class="container"></div>
+        <div class="level">
+            <div class="level-item">
+                <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                        <label class="label" for="input-text">ค้นหา</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                        <p class="control">
+                            <input  class="input is-rounded" 
+                                    type="text" id="input-text"
+                                    placeholder="Enter some text">
+                        </p>
+                        </div>
+
+                        <div class="control">
+                            <button id="submit-btn" class="button is-primary">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="level-item">
+                <div class="content box is-large">
+                    <p id="result">Result here...</p>
+
+                    <p></p>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    </section>
+
+	<table class="table" id="data_table">
+            <tr>
+                <th>Fansite Name</th>
+                <th>Type</th>
+                <th>Goods Name</th>
+                <th>Code</th>
+                <th>Amount</th>
+                <th>Period</th>
+                <th>Derivery</th>
+                <th>Status</th>
+            </tr>
+        </table>
+
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="myscript.js"></script>
+</body>
+</html>
