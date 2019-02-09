@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>jquery3</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="bulma-0.7.2/css/bulma.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	
+</head>
+<body>
+	<h1>ตรวจสอบสถานะสินค้า</h1>
+	<section class="section">
+    <div class="container"></div>
+        <div class="level">
+            <div class="level-item">
+                <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                        <label class="label" id="input" for="input-text">ค้นหา</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                        <p class="control">
+                            <input  class="input is-rounded" 
+                                    type="text" id="input-text"
+                                    placeholder="Enter some text">
+                        </p>
+                        </div>
+
+                        <div class="control">
+                            <button id="submit-btn" class="button is-primary">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="advance">
+                <button id="advance-btn" class="button is-primary">
+                    advance
+                 </button> 
+            </div>
+
+        <div class="advance-inner">
+        		<div class="field is-horizontal">
+                    <div class="field-label is-normal-name">
+                        <label class="label" id="left-label" for="name-text">Name</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                        <p class="control">
+                            <input  class="input is-rounded" 
+                                    type="text" id="name-text"
+                                    placeholder="Enter name">
+                        </p>
+                        </div>
+                    </div>
+
+                    <div class="field-label is-normal">
+                        <label class="label" id="right-label" for="fansite-text">FansiteName</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                        <p class="control">
+                            <input  class="input is-rounded" 
+                                    type="text" id="fansite-text"
+                                    placeholder="Enter fansite name">
+                        </p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="field is-horizontal">
+                    
+					<div class="field-label is-normal">
+                        <label class="label" id="left-label" for="type-text">Type</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                        <p class="control">
+                            <input  class="input is-rounded" 
+                                    type="text" id="type-text"
+                                    placeholder="Enter type">
+                        </p>
+                        </div>
+                    </div>
+
+                    <div class="field-label is-normal">
+                        <label class="label"  id="right-label" for="goods-name-text">Goods Name</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                        <p class="control">
+                            <input  class="input is-rounded" 
+                                    type="text" id="goods-name-text"
+                                    placeholder="Enter goods name">
+                        </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="field is-horizontal">
+                    
+					<div class="field-label is-normal">
+                        <label class="label" id="left-label" for="code-text">Code</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                        <p class="control">
+                            <input  class="input is-rounded" 
+                                    type="text" id="code-text"
+                                    placeholder="Enter code">
+                        </p>
+                        </div>
+                    </div>
+
+                    <div class="field-label is-normal">
+                        <label class="label" id="right-label" for="derivery-text">Delivery</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                        <p class="control">
+                            <input  class="input is-rounded" 
+                                    type="text" id="derivery-text"
+                                    placeholder="Enter derivery">
+                        </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="field is-horizontal" id="button-ad">
+                    
+					<div class="field-label is-normal">
+                        <label class="label" id="left-label" for="status-text">Status</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                        <p class="control">
+                            <input  class="input is-rounded" 
+                                    type="text" id="status-text"
+                                    placeholder="Enter status">
+                        </p>
+                        </div>
+                    </div>
+                    <div id="advance-2">  
+                		<button id="advance-submit-btn" class="button is-primary">
+                    		<i class="fas fa-search"></i>
+                 		</button> 
+					</div>
+                </div>
+            </div>    	
+        </div>
+    </section>
+
+
+
+	<table class="table" id="data_table">
+            <tr>
+            	<th>Name</th>
+                <th>Fansite Name</th>
+                <th>Type</th>
+                <th>Goods Name</th>
+                <th>Code</th>
+                <th>Delivery</th>
+                <th id="status-column">Status</th>
+            </tr>
+        </table>
+
+    <h2>ที่มา : สถานะสินค้าร้าน @littleplusx98</h2>
+
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="myscript.js"></script>
+</body>
+</html>
