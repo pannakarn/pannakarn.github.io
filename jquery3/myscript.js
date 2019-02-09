@@ -45,7 +45,6 @@ $(document).ready(function() {
         url: "data.json",
         dataType: "json"
     }).done(function(response) {
-        console.log(response);
         response.forEach(element => {
             var row = $("<tr />")
             $("#data_table").append(row);
