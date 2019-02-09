@@ -1,4 +1,4 @@
-html {
+/*html {
 	background-color: #f3f8ff;
 	background: url(bg.png) center top ;
 
@@ -124,12 +124,12 @@ input#status-text.input.is-rounded {
 
 #status-column {
 	font-family: 'Sarabun', sans-serif;
-}
+}*/
 
 
-/*----------------------------------*/
+----------------------------------
 
-@media screen and (min-width: 769px), print
+/*@media screen and (min-width: 769px), print
 .level>.level-item:not(.is-narrow) {
     flex-grow: 1;
 }
@@ -205,4 +205,4 @@ html {
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     text-size-adjust: 100%;
-}
+}*/
