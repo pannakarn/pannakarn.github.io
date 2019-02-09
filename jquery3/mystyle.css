@@ -8,14 +8,20 @@ html {
 }
 
 table {
+	display: table;
 	margin: auto;
+	margin-top: 50px;
 	border: 1px solid #deecff;   
     width: 85%;
     font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    line-height: 2.5;
+        border-collapse: collapse;
+    border-spacing: 0;
 }
 
 .table th {
-  background-color: #deecff;
+  background-color: #add0ff;
   color: #5fa3ff; 
   font-weight: bold;    
    text-align: center;
@@ -23,7 +29,6 @@ table {
 }
 td {
     text-align: left;
-    /*vertical-align: middle;*/
 }
 
 tr:nth-child(even) {background: white}
@@ -51,11 +56,22 @@ h1{
 }
 
 h2 {
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-bottom: 30px;
 	text-align: center;
 	font-size: 1em;
 	font-family: 'Sarabun', sans-serif;
+	font-weight: lighter;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+.pointer {cursor: pointer;}
+
+a:hover {
+	COLOR: #5fa3ff; TEXT-DECORATION: none; font-weight: none
 }
 
 label {
@@ -64,11 +80,16 @@ label {
 }
 
 .advance-inner {
+	display: block;
+	margin: 0 auto;
+}
+
+.advance-inner {
 	display: none;
 }
 
 .advance-inner .field.is-horizontal{
-	width: 650px;
+	width: 200px;
 	text-align: left;
 }
 
@@ -76,14 +97,17 @@ label {
     font-size: inherit;
     text-align: left;
     width: 90px;
+    position: absolute;
 }
 
 #right-label {
-	margin-left: 40px;
+	margin-left: 380px;
 }
 
 #type-text, #code-text, #status-text, #name-text{
-	margin-left: -50px;
+	margin-left: 100px;
+	position: absolute;
+	width: 200px;
 }
 
 
@@ -96,18 +120,20 @@ label {
 	position: relative;
 	margin: 0 auto;
 	width: 50%;
-	padding-top: 20px;
+	padding-top: 5px;
 }
 
 #advance-btn {
-	
 	display: block;
 	vertical-align: middle;
 	margin: auto;
+	margin-bottom: 20px;
+	margin-top:  10px;
 }
 
 .button.is-primary {
 	background-color: #5fa3ff; 
+	text-align: center;
 }
 
 #input {
@@ -121,18 +147,41 @@ label {
 }
 
 input#status-text.input.is-rounded {
-	width: 190px;
-	margin-left: -50px;
+	margin-left: 100px;
+	position: absolute;
+	width: 200px;
 }
 
-#status-column {
+#status-column, #code-column, #delivery-column {
 	font-family: 'Sarabun', sans-serif;
+	text-align: center;
 }
 
+
+#submit-btn {
+	display: block;
+	margin-left: 60px;
+
+}
+#fansite-text, #goods-name-text, #derivery-text {
+	width: 190px;
+	margin-left: 500px;
+}
+
+#advance-submit-btn {
+	display: block;
+	margin: auto;
+	margin-left: 380px; 
+
+}
+
+#name-column {
+	text-align: center;
+}
 
 /*----------------------------------*/
 
-/*@media screen and (min-width: 769px), print
+@media screen and (min-width: 769px), print
 .level>.level-item:not(.is-narrow) {
     flex-grow: 1;
 }
@@ -147,7 +196,8 @@ input#status-text.input.is-rounded {
 }
 
 .input.is-rounded {
-    border-radius: 290486px;
+    /*border-radius: 290486px;*/
+    border-radius: 20000px;
     padding-left: 1em;
     padding-right: 1em;
 }
@@ -170,7 +220,7 @@ input#status-text.input.is-rounded {
     box-shadow: none;
     display: inline-flex;
     font-size: 1rem;
-    height: 2.25em;
+    /*height: 2.25em;*/
     justify-content: flex-start;
     line-height: 1.5;
     padding-bottom: calc(.375em - 1px);
@@ -208,4 +258,4 @@ html {
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     text-size-adjust: 100%;
-}*/
+}

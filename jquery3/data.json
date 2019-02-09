@@ -19,11 +19,20 @@
     },
     {
     	"name" : "Seongwu",
-        "fansiteName": "@stillvibin_",
-        "type" : "Season greeting",
-        "goodsName" : "Vibin On #03",
-        "code" : "SWSTV-02",
-        "delivery" : "november",
+        "fansiteName": "@3point_ong",
+        "type" : "Photobook",
+        "goodsName" : "Love Point",
+        "code" : "SW3P-01",
+        "delivery" : "january",
+        "status" : "ส่งแล้ว"
+    },
+    {
+    	"name" : "Minhyun",
+        "fansiteName": "@btfway_mh",
+        "type" : "Slogan",
+        "goodsName" : "Kill me Heal me",
+        "code" : "MHBTF-02",
+        "delivery" : "june",
         "status" : "ส่งแล้ว"
     },
     {
@@ -63,15 +72,7 @@
         "delivery" : "november",
         "status" : "ส่งแล้ว"
     },
-    {
-    	"name" : "Seongwu",
-        "fansiteName": "@seduction0825",
-        "type" : "Season greeting",
-        "goodsName" : "Sweet&Heart",
-        "code" : "SWSED-02",
-        "delivery" : "november",
-        "status" : "ถึงไทย"
-    },
+    
     {
     	"name" : "Jihoon",
         "fansiteName": "@Hoonee_home",
@@ -79,7 +80,7 @@
         "goodsName" : "우리 다시,봄",
         "code" : "JHHNH-01",
         "delivery" : "december",
-        "status" : "สั่งแล้ว"
+        "status" : "รอส่ง"
     },
        
     {
@@ -119,16 +120,17 @@
         "delivery" : "december",
         "status" : "ส่งแล้ว"
     },
-    
     {
     	"name" : "Woojin",
-        "fansiteName": "@PlanetCosmos112",
-        "type" : "Season greeting, Slogan",
-        "goodsName" : "To The Moon And Back",
-        "code" : "WJPNC-02",
-        "delivery" : "december",
+        "fansiteName": "@luvmyboy_1102",
+        "type" : "Slogan",
+        "goodsName" : "Luv my boy 2nd Slogan",
+        "code" : "WJLMB-01",
+        "delivery" : "april",
         "status" : "ส่งแล้ว"
     },
+    
+    
 	{
 		"name" : "Minhyun",
         "fansiteName": "@counterflow89",
@@ -174,17 +176,9 @@
         "goodsName" : "Slash",
         "code" : "WJLMB-02",
         "delivery" : "november",
-        "status" : "สั่งแล้ว"
+        "status" : "รอส่ง"
     },
-    {
-    	"name" : "Minhyun",
-        "fansiteName": "@btfway_mh",
-        "type" : "Season greeting",
-        "goodsName" : "Truly your",
-        "code" : "MHBTF-03",
-        "delivery" : "december",
-        "status" : "ส่งแล้ว"
-    },
+    
     {
     	"name" : "Jihoon",
         "fansiteName": "@oddtrick_jh",
@@ -195,14 +189,15 @@
         "status" : "ส่งแล้ว"
     },
     {
-    	"name" : "Minhyun",
-        "fansiteName": "@Fatewithyou1",
-        "type" : "Season greeting",
-        "goodsName" : "NON - END",
-        "code" : "MHFWY-01",
-        "delivery" : "december",
-        "status" : "คืนเงิน"
+    	"name" : "Jihoon",
+        "fansiteName": "@oddtrick_jh",
+        "type" : "Slogan",
+        "goodsName" : "Oddtrick Cheering Kit",
+        "code" : "JHOT-01",
+        "delivery" : "febuary",
+        "status" : "ส่งแล้ว"
     },
+    
     {
     	"name" : "Daniel&Jihoon",
         "fansiteName": "@SugarRush_9699",
@@ -249,6 +244,15 @@
         "status" : "ส่งแล้ว"
     },
     {
+    	"name" : "Minhyun",
+        "fansiteName": "@btfway_mh",
+        "type" : "Season greeting",
+        "goodsName" : "Truly your",
+        "code" : "MHBTF-03",
+        "delivery" : "december",
+        "status" : "ส่งแล้ว"
+    },
+    {
     	"name" : "Jihoon",
         "fansiteName": "@mayrabbitprince",
         "type" : "Eco Bag",
@@ -276,6 +280,15 @@
         "status" : "ส่งแล้ว"
     },
     {
+    	"name" : "Minhyun",
+        "fansiteName": "@Fatewithyou1",
+        "type" : "Season greeting",
+        "goodsName" : "NON - END",
+        "code" : "MHFWY-01",
+        "delivery" : "december",
+        "status" : "คืนเงิน"
+    },
+    {
     	"name" : "Seongwu",
         "fansiteName": "@seduction0825",
         "type" : "Slogan",
@@ -293,24 +306,8 @@
         "delivery" : "december",
         "status" : "ส่งแล้ว"
     },
-    {
-    	"name" : "Jihoon",
-        "fansiteName": "@RIGHTBEFORE_JH",
-        "type" : "Season greeting",
-        "goodsName" : "Once in a bluemoon",
-        "code" : "JHRBF-01",
-        "delivery" : "december",
-        "status" : "ส่งแล้ว"
-    },
-    {
-    	"name" : "Woojin",
-        "fansiteName": "@luvmyboy_1102",
-        "type" : "Slogan",
-        "goodsName" : "Luv my boy 2nd Slogan",
-        "code" : "WJLMB-01",
-        "delivery" : "april",
-        "status" : "ส่งแล้ว"
-    },
+    
+    
     {
     	"name" : "Minhyun",
         "fansiteName": "@19950809_net",
@@ -321,12 +318,30 @@
         "status" : "ส่งแล้ว"
     },
     {
+    	"name" : "Jihoon",
+        "fansiteName": "@RIGHTBEFORE_JH",
+        "type" : "Season greeting",
+        "goodsName" : "Once in a bluemoon",
+        "code" : "JHRBF-01",
+        "delivery" : "december",
+        "status" : "ส่งแล้ว"
+    },
+    {
     	"name" : "Seongwu",
         "fansiteName": "@doubletrap_sw",
         "type" : "Slogan",
         "goodsName" : "Time Slip",
         "code" : "SWDBT-01",
         "delivery" : "july",
+        "status" : "ส่งแล้ว"
+    },
+    {
+    	"name" : "Woojin",
+        "fansiteName": "@PlanetCosmos112",
+        "type" : "Season greeting, Slogan",
+        "goodsName" : "To The Moon And Back",
+        "code" : "WJPNC-02",
+        "delivery" : "december",
         "status" : "ส่งแล้ว"
     },
     {
@@ -346,6 +361,15 @@
         "code" : "JHRBF-02",
         "delivery" : "april",
         "status" : "ส่งแล้ว"
+    },
+    {
+    	"name" : "Seongwu",
+        "fansiteName": "@seduction0825",
+        "type" : "Season greeting",
+        "goodsName" : "Sweet&Heart",
+        "code" : "SWSED-02",
+        "delivery" : "november",
+        "status" : "ถึงไทย"
     },
     {
     	"name" : "Jihoon",
@@ -374,24 +398,7 @@
         "delivery" : "july",
         "status" : "ส่งแล้ว"
     },
-    {
-    	"name" : "Seongwu",
-        "fansiteName": "@3point_ong",
-        "type" : "Photobook",
-        "goodsName" : "Love Point",
-        "code" : "SW3P-01",
-        "delivery" : "january",
-        "status" : "ส่งแล้ว"
-    },
-    {
-    	"name" : "Jihoon",
-        "fansiteName": "@oddtrick_jh",
-        "type" : "Slogan",
-        "goodsName" : "Oddtrick Cheering Kit",
-        "code" : "JHOT-01",
-        "delivery" : "febuary",
-        "status" : "ส่งแล้ว"
-    },
+   
     {
     	"name" : "Minhyun",
         "fansiteName": "@19950809_net",
@@ -402,12 +409,12 @@
         "status" : "ส่งแล้ว"
     },
     {
-    	"name" : "Minhyun",
-        "fansiteName": "@btfway_mh",
-        "type" : "Slogan",
-        "goodsName" : "Kill me Heal me",
-        "code" : "MHBTF-02",
-        "delivery" : "june",
+    	"name" : "Seongwu",
+        "fansiteName": "@stillvibin_",
+        "type" : "Season greeting",
+        "goodsName" : "Vibin On #03",
+        "code" : "SWSTV-02",
+        "delivery" : "november",
         "status" : "ส่งแล้ว"
     }
  
