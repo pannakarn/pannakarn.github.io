@@ -1,4 +1,4 @@
-/*html {
+html {
 	background-color: #f3f8ff;
 	background: url(bg.png) center top ;
 
@@ -85,7 +85,7 @@ label {
 
 
 #button-ad {
-	/*width: 695px;*/
+	width: 695px;
 	width: 390px;
 }
 
@@ -124,10 +124,10 @@ input#status-text.input.is-rounded {
 
 #status-column {
 	font-family: 'Sarabun', sans-serif;
-}*/
+}
 
 
-----------------------------------
+/*----------------------------------*/
 
 /*@media screen and (min-width: 769px), print
 .level>.level-item:not(.is-narrow) {
