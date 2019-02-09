@@ -16,7 +16,7 @@ $(document).ready(function() {
                 if(element.name.toUpperCase().includes(keyUpper) ||
                     element.fansiteName.toUpperCase().includes(keyUpper) || element.type.toUpperCase().includes(keyUpper) || 
                     element.goodsName.toUpperCase().includes(keyUpper) || element.code.toUpperCase().includes(keyUpper) || 
-                    element.derivery.toUpperCase().includes(keyUpper) || element.status.toUpperCase().includes(keyUpper)) {
+                    element.delivery.toUpperCase().includes(keyUpper) || element.status.toUpperCase().includes(keyUpper)) {
 
                     var row = $("<tr />")
                     $("#data_table").append(row);
@@ -25,7 +25,7 @@ $(document).ready(function() {
                     row.append($("<td>" + element.type + "</td>"));
                     row.append($("<td>" + element.goodsName + "</td>"));
                     row.append($("<td>" + element.code + "</td>"));
-                    row.append($("<td>" + element.derivery + "</td>"));
+                    row.append($("<td>" + element.delivery + "</td>"));
                     row.append($("<td id=\"status-column\">" + element.status + "</td>"));
                 }
 
@@ -53,7 +53,7 @@ $(document).ready(function() {
             row.append($("<td>" + element.type + "</td>"));
             row.append($("<td>" + element.goodsName + "</td>"));
             row.append($("<td>" + element.code + "</td>"));
-            row.append($("<td>" + element.derivery + "</td>"));
+            row.append($("<td>" + element.delivery + "</td>"));
             row.append($("<td id=\"status-column\">" + element.status + "</td>"));
         });
     });
@@ -67,7 +67,7 @@ $(document).ready(function() {
         var name = $('#name-text').val().toUpperCase();
         var fansiteName = $('#fansite-text').val().toUpperCase();
         var type = $('#type-text').val().toUpperCase();
-        var derivery = $('#derivery-text').val().toUpperCase();
+        var delivery = $('#derivery-text').val().toUpperCase();
         var status = $('#status-text').val().toUpperCase();
         var goodsName = $('#goods-name-text').val().toUpperCase();
         var code = $('#code-text').val().toUpperCase();
@@ -85,7 +85,7 @@ $(document).ready(function() {
                 if( element.name.toUpperCase().includes(name) && element.goodsName.toUpperCase().includes(goodsName) &&
                     element.code.toUpperCase().includes(code) &&
                     element.fansiteName.toUpperCase().includes(fansiteName) && element.type.toUpperCase().includes(type) && 
-                    element.derivery.toUpperCase().includes(derivery) && element.status.toUpperCase().includes(status)) {
+                    element.delivery.toUpperCase().includes(delivery) && element.status.toUpperCase().includes(status)) {
     
                             var row = $("<tr />")
                             $("#data_table").append(row);
@@ -94,7 +94,7 @@ $(document).ready(function() {
                             row.append($("<td>" + element.type + "</td>"));
                             row.append($("<td>" + element.goodsName + "</td>"));
                             row.append($("<td>" + element.code + "</td>"));
-                            row.append($("<td>" + element.derivery + "</td>"));
+                            row.append($("<td>" + element.delivery + "</td>"));
                             row.append($("<td id=\"status-column\">" + element.status + "</td>"));
                     }
             });
