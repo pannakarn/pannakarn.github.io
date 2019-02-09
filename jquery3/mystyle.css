@@ -1,20 +1,30 @@
+html {
+	background-color: #f3f8ff;
+	background: url(bg.png) center top ;
+
+}
+
 table {
 	margin: auto;
-	border: 1px solid #666;   
-    width: 80%;
+	border: 1px solid #deecff;   
+    width: 85%;
     font-family: 'Roboto Mono', monospace;
 }
 
 .table th {
-  background: #f8f8f8; 
+  background-color: #deecff;
+  color: #5fa3ff; 
   font-weight: bold;    
-    /*padding: 10px;*/
-    text-align: left;
+   text-align: left;
+   font-size: 20px;
 }
 td {
     text-align: center;
     vertical-align: middle;
 }
+
+tr:nth-child(even) {background: white}
+tr:nth-child(odd) {background: #deecff}
 
 table td, table th {
     vertical-align: top;
@@ -24,14 +34,94 @@ table td, table th {
 	text-align: center;
 }
 
-h1 {
+h1{
+	background: url(head.png) center top no-repeat;
+	white-space: nowrap;
+    overflow: hidden;
+    text-indent: 100%;
 	margin-top: 50px;
 	text-align: center;
 	font-size: 4em;
+	font-family: 'Sarabun', sans-serif;
+	color: #5fa3ff;
+	height: 120px;
+}
+
+h2 {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 1em;
 	font-family: 'Sarabun', sans-serif;
 }
 
 label {
     font-size: inherit;
     font-family: 'Sarabun', sans-serif;
+}
+
+.advance-inner {
+	display: none;
+}
+
+.advance-inner .field.is-horizontal{
+	width: 650px;
+	text-align: left;
+}
+
+.field-label .label {
+    font-size: inherit;
+    text-align: left;
+    width: 90px;
+}
+
+#right-label {
+	margin-left: 40px;
+}
+
+#type-text, #code-text, #status-text, #name-text{
+	margin-left: -50px;
+}
+
+
+#button-ad {
+	/*width: 695px;*/
+	width: 390px;
+}
+
+.advance-inner {
+	position: relative;
+	margin: 0 auto;
+	width: 50%;
+	padding-top: 20px;
+}
+
+#advance-btn {
+	
+	display: block;
+	vertical-align: middle;
+	margin: auto;
+}
+
+.button.is-primary {
+	background-color: #5fa3ff; 
+}
+
+#input {
+	width: 50px;
+}
+
+.button.is-primary:hover {
+	background-color: #deecff;
+	color: #5fa3ff;
+	font-weight: bold; 
+}
+
+input#status-text.input.is-rounded {
+	width: 190px;
+	margin-left: -50px;
+}
+
+#status-column {
+	font-family: 'Sarabun', sans-serif;
 }
