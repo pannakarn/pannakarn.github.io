@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
+
+html {
+	background-color: #f3f8ff;
+	background: url(bg.png) center top ;
+
+}
+
+#amount {
+	text-align: center;
+}
+
+h1{
+	background: url(head.png) center top no-repeat;
+	white-space: nowrap;
+    overflow: hidden;
+    text-indent: 100%;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 4em;
+	font-family: 'Sarabun', sans-serif;
+	color: #5fa3ff;
+	height: 120px;
+}
+
+h2 {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 1em;
+	font-family: 'Sarabun', sans-serif;
+	font-weight: lighter;
+}
+
+
+label {
+    font-size: inherit;
+    font-family: 'Sarabun', sans-serif;
+}
+
+
+
+input[type=submit]:hover  {
+    
+    /*color: #5fa3ff;*/
+    /*font-weight: bold;*/
+
+}
+
+.button.is-primary:hover, input[type=submit]:hover{
+    /*background-color: #deecff;*/
+    color: white;
+    font-weight: bold; 
+}
+
+#back-btn  {
+    display: block;
+    vertical-align: middle;
+    margin: auto;
+    margin-left: 540px;
+    margin-top: -68px;
+}
+
+.topic{
+    font-family: 'Sarabun', sans-serif;
+    padding-left: 150px;
+    color: #5fa3ff;
+}
+
+section {
+    width: 650px;
+    /*background-color: white;*/
+    padding-left: 250px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.error {
+    color: red;
+}
+
+.button.is-primary, input[type=submit]{
+    /*background-color: #5fa3ff;*/
+    background-color: transparent; 
+    font-family: 'Sarabun', sans-serif;
+    font-size: 20px;
+    color: #5fa3ff;
+}
+
+input[type=submit] {
+    margin-left: 400px;
+    font-family: 'Sarabun', sans-serif;
+    /*background-color: white; */
+    border: none;
+}
+
+#submit {
+    display: block;
+}
+
+.input.is-rounded {
+    border-radius: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.input, .textarea {
+    background-color: #fff;
+    border-color: #dbdbdb;
+    color: #363636;
+    /*box-shadow: inset 1px 1px 1px 1px rgba(10,10,10,0.1);*/
+    max-width: 100%;
+    /*width: 100%;*/
+    width: 400px;
+}
+
+.button, .file-cta, .file-name, .input, .pagination-ellipsis, .pagination-link, .pagination-next, .pagination-previous, .select select, .textarea  {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    align-items: center;
+    /*border: 1px solid transparent;*/
+    border: 1px solid transparent;
+    border-radius: 4px;
+    /*box-shadow: none;*/
+    display: inline-flex;
+    font-size: 1rem;
+    /*height: 2.25em;*/
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(.375em - 1px);
+    padding-left: calc(.625em - 1px);
+    padding-right: calc(.625em - 1px);
+    padding-top: calc(.375em - 1px);
+    position: relative;
+    vertical-align: top;
+}
+
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+html {
+    background-color: #dfe9f7;
+    font-size: 16px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    min-width: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
